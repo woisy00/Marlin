@@ -2453,7 +2453,7 @@
   #define XY_SIDE_AD 105.96 //200
 
   // Or, set the XY skew factor directly:
-  #define XY_SKEW_FACTOR I-0.001070
+  #define XY_SKEW_FACTOR -0.001070
 
   //#define SKEW_CORRECTION_FOR_Z
   #if ENABLED(SKEW_CORRECTION_FOR_Z)
@@ -3728,6 +3728,7 @@
   //#define NEOPIXEL_PIN                8 // LED driving pin
   //#define NEOPIXEL2_TYPE  NEOPIXEL_TYPE
   //#define NEOPIXEL2_PIN               5
+  #define BOARD_HAS_DCDC5V
   #define NEOPIXEL_PIXELS              45 // Number of LEDs in the strip. (Longest strip when NEOPIXEL2_SEPARATE is disabled.)
   #define NEOPIXEL_IS_SEQUENTIAL          // Sequential display for temperature change - LED by LED. Disable to change all LEDs at once.
   #define NEOPIXEL_BRIGHTNESS         255 // Initial brightness (0-255)
